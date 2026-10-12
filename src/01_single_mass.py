@@ -40,7 +40,6 @@ if solution.success:
     plt.title("Single Mass-Spring System with Damping")
     plt.xlabel("Time (s)")
     plt.ylabel("Displacement (m)")
-    plt.legend()
     plt.grid(alpha=0.3)
     plt.tight_layout()
     plt.savefig("figures/01_single_mass.png", dpi=300)
